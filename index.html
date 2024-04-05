@@ -1,69 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
-    <link rel="stylesheet" href="index.css">
+<html>
+    <head>
+
+    
+    <title> Tela  de login </title>
 </head>
-<body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html"> Sobre a empresa  </a>
-            </li>
-            <li>
-                <a href="project.html"> Projetos </a>
-            </li>
-            <li>
-                <a href="contact.html"> Contato </a>
-               
-            </li>
-            <li>
-                <a href="contact.html"> Sustentabilidade </a>
-               
-            </li>
-            
-        </ul>
-    </nav>
-<header>
-    <div class="center">
-        <img src="./img/Inter.jpg"></img>
-    </div>
-    <h1> Sphynx</h1>
+ <style>
+    *{margin:5;padding: 5;box-sizing: border-box;}
+    body{
+        background-color: rgb(156, 153, 195);
+    }
 
-</header>
+    form{
+        background-color: rgba(21, 19, 19, 0.182);
+        max-width: 400px;
+        width: 80%;
+        padding: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    form h3{
+        text-align: center;
+        color:rgb(9, 9, 17)
 
-<main>
-<section>
-    <h3> Sobre a Empresa </h3>
-    <p>
-        É uma empresa de tecnologia dedicada a criar soluções de comunicação inovadossras que conectam pessoas em todo o mundo. Desde de 2024, nossa missão tem sido facilitar conversas significativas e colaborações eficientes por meio de nossa plataforma de chat. A Nossa Missão é capacitar indivíduos e organizações a se comunicarem de forma eficaz e segura, proporcionando uma experiência de chat intuitiva e confiável.
-    </p>
-</section>
-<section>
-    <h3> Projetos </h3>
-    <p>
-        Projetos de sustentabilidade são iniciativas que visam promover práticas e comportamentos que minimizem o impacto negativo no meio ambiente, ao mesmo tempo em que buscam melhorar o bem-estar social e econômico das comunidades envolvidas. Esses projetos podem ser implementados em diversos setores, incluindo agricultura, indústria, transporte, energia, construção, educação e governança.
-        <h3> Sustentabilidade </h3>
-    <p>
-      A  tecnologia desempenha um papel fundamental na promoção da sustentabilidade, oferecendo ferramentas e recursos que podem impulsionar a eficiência energética, reduzir o desperdício, melhorar a gestão de recursos naturais e facilitar a transição para uma economia mais circular. Por meio de avanços em áreas como inteligência artificial, Internet das Coisas (IoT), energia renovável, transporte sustentável e agricultura de precisão, podemos desenvolver soluções inovadoras que abordam desafios ambientais de maneira holística e escalável.
-    </p>
-</section>
-<section>
-    <h3> Contato  </h3>
-    <p>
-        Whastapp - Instagram 
-    </p>
-</section>
-</main>
-<footer>
-    <a>
-        <img src=".img/Whastapp.jpg"></img>
+    }
+    form input[type=text]
+    form input[type=password]{
+    width: 90%;
+    height: 35px;
+    border:1px solid #171616;
+    padding-left: 100px;
+    margin: 20px 0;
+
+
+    }
+    
+form input[type=submit]{
+width: 95%;
+height: 30px;
+cursor:pointer;
+background-color: rgba(56, 155, 150, 0);
+color: rgb(1, 22, 22);
+border-radius: 15px;
+transition: 1s;
+}
+
+form input[type=submit]:hover{
+    background-color: rgba(1, 5, 6, 0.567);
+}
+
+ </style>
+    <body>
+       <form>
+        <h3> Sphynx  </h3>
+        <input type="text" name="Login" placeholder="Login"/>
+        <input type="password" name="senha" placeholder=" Senha"/>
+        <input type="submit" name="acao" value="Entrar"/>
+        <input type="submit" name="acao" value="Esqueceu a senha? Lembre-me"/>
+        <input type="submit" name="acao" value="Cadastrar"/>
         
-    </a>
-</footer>
-
-</body>
-
+    
+           </form>
+    </body>
 </html>
